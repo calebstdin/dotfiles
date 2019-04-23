@@ -1,8 +1,9 @@
-# Ignore everything 
 *
-!*/
+
 !.gitignore
 !.gitconfig
+
+!/README.md
 
 !.zshrc
 !.zsh-custom/**/*
