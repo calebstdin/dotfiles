@@ -1,9 +1,14 @@
 # Ignore everything 
 *
 !*/
-!.zshrc
 !.gitignore
 !.gitconfig
+
+!.zshrc
 !zsh-custom/**/*
+
 !.config/tilix/**/*
 !.tilix.dconf
+
+!.config/kwinrc
+!.config/kglobalshortcutsrc
