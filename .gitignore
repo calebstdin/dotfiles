@@ -5,7 +5,7 @@
 !.gitconfig
 
 !.zshrc
-!zsh-custom/**/*
+!.zsh-custom/**/*
 
 !.config/tilix/**/*
 !.tilix.dconf
