@@ -1,0 +1,7 @@
+# Ignore everything 
+*
+!*/
+!.zshrc
+!.gitignore
+!zsh-custom/**/*
+!.config/tilix/**/*
