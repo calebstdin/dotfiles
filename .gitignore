@@ -3,5 +3,7 @@
 !*/
 !.zshrc
 !.gitignore
+!.gitconfig
 !zsh-custom/**/*
 !.config/tilix/**/*
+!.tilix.dconf
