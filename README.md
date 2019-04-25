@@ -4,7 +4,7 @@ If you have suggestions for alternatives for me to try, please send me an email!
 
 | Category                      | Preferred sofware    |
 |------------------------------ | -------------------- |
-| Contact management            | Google Contacts      |
+| Contact management            | contacts.google.com  |
 | Desktop environment           | KDE Plasma           |
 | Git branch visualization      | GitKraken            |   
 | Not-it randomizer             | Chwazi               |
