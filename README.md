@@ -7,7 +7,6 @@ If you have suggestions for alternatives for me to try, please send me an email!
 | Contact management            | Google Contacts      |
 | Desktop environment           | KDE Plasma           |
 | Git branch visualization      | GitKraken            |   
-| Music                         | YouTube Music        |
 | Not-it randomizer             | Chwazi               |
 | Notes                         | Trello               |
 | Notes (secure)                | Bitwarden            |
