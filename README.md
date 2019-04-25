@@ -13,6 +13,7 @@ If you have suggestions for alternatives for me to try, please send me an email!
 | Operating system (desktop)    | Arch Linux           |
 | Password manager              | Bitwarden            |
 | Terminal emulator             | Tilix                |
+| To-do lists                   | Trello               |
 | Torrent client                | WebTorrent           |
 | Unix shell                    | zsh + oh-my-zsh      |
 | VPN server                    | IVPN                 |
