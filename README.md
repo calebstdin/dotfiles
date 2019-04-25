@@ -1,16 +1,12 @@
-On the off chance someone cares, here are my preferred tools:
+Here's some of my favorite software. These tools aren't necessarily the most used (yet), but they are truly great at what they do.
+
+If you have suggestions for alternatives for me to try, please send me an email!
 
 | Category                      | Preferred sofware    |
 |------------------------------ | -------------------- |
-| Browser                       | Chrome for UX        |
-| Browser                       | Firefox for features |
-| Code editor                   | VS Code              |
-| Code editor (Java)            | IntelliJ IDEA        |
-| Code editor (JavaScript)      | Atom                 |
-| Contact manager               | Google Contacts      |
+| Contact management            | Google Contacts      |
 | Desktop environment           | KDE Plasma           |
-| Git client (branch viz)       | GitKraken            |                  
-| Git client (staging, diffs)   | VS Code              |
+| Git branch visualization      | GitKraken            |   
 | Music                         | YouTube Music        |
 | Not-it randomizer             | Chwazi               |
 | Notes                         | Trello               |
