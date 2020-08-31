@@ -2,14 +2,14 @@ function fish_prompt --description 'Write out the prompt'
     set -l last_pipestatus $pipestatus
     set -lx fish_prompt_pwd_dir_length 0 # disable pwd shortening
 
-    # Line 1
+    # Line 1 - exit code from previous command
     set -l code (__fish_print_pipestatus "[" "]" "|" (set_color $fish_color_status) (set_color $fish_color_status) $last_pipestatus)
     if test -n "$code" 
         echo
         echo -n $code
     end
 
-    # Line 2
+    # Line 2 - status info (working directory, git branch, kubectl context)
     echo
     
     set_color $fish_color_cwd
