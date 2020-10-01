@@ -66,7 +66,7 @@ function fish_prompt --description 'Write out the prompt'
     set -lx __fish_git_prompt_color cyan
     set -lx __fish_git_prompt_color_branch cyan
     set -lx __fish_git_prompt_color_flags red
-    _append left_prompt (echo (fish_vcs_prompt))
+    _append left_prompt (echo (string replace % ! (fish_vcs_prompt)))
 
     set -l right_prompt ""
     set -l code (__fish_print_pipestatus "[" "]" "|" (set_color $fish_color_status) (set_color $fish_color_status) $last_pipestatus)
