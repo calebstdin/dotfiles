@@ -43,7 +43,7 @@ function kubectl_status
   set -l ns (kubectl config view -o "jsonpath={.contexts[?(@.name==\"$ctx\")].context.namespace}")
   [ -z $ns ]; and set -l ns 'default'
 
-  echo (set_color yellow)"$ctx$KUBECTL_PROMPT_SEPARATOR$ns"(set_color normal)
+  echo (set_color yellow)"$ctx"(set_color normal)
 end
 
 function fish_prompt --description 'Write out the prompt'
