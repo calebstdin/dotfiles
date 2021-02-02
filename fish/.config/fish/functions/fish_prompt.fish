@@ -26,15 +26,6 @@ end
 
 
 function kubectl_status
-  [ -z "$KUBECTL_PROMPT_ICON" ]; and set -l KUBECTL_PROMPT_ICON "⎈"
-  [ -z "$KUBECTL_PROMPT_SEPARATOR" ]; and set -l KUBECTL_PROMPT_SEPARATOR "/"
-  set -l config $KUBECONFIG
-  [ -z "$config" ]; and set -l config "$HOME/.kube/config"
-  if [ ! -f $config ]
-    echo (set_color red)$KUBECTL_PROMPT_ICON" "(set_color white)"no config"
-    return
-  end
-
   set -l ctx (kubectl config current-context 2>/dev/null)
   if [ $status -ne 0 ]
     return
