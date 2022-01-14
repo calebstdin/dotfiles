@@ -5,3 +5,8 @@
 [includeIf "gitdir:~/src/ea/"]
   path = ~/src/ea/.gitconfig
 
+[pull]
+	rebase = true
+
+[core]
+	pager = less -+$LESS -RS # for macOS touchpad scroll
