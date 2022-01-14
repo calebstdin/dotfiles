@@ -9,4 +9,4 @@
 	rebase = true
 
 [core]
-	pager = less -+$LESS -RS # for macOS touchpad scroll
+	pager = less -+$LESS -RS # for macOS trackpad scroll

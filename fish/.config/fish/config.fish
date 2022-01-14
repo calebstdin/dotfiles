@@ -7,7 +7,7 @@ set PATH $GOPATH/bin $GOROOT/bin $PATH
 
 set EDITOR code -w
 
-add_secrets
-
-# Set default directory
-cd ~/src/ea/r
+# This should always be the last line. Why? So that you're not incentivized
+# to use the secrets in subsequent lines, in a way that compromises the secrets.
+# Just an abundance of caution, really.
+do_secret_tings
