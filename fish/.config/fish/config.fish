@@ -1,9 +1,11 @@
 set GRADLE_USER_HOME "~/.gradle"
 
-set -x GOPATH $HOME/golang
-set -x GOROOT /usr/local/opt/go/libexec
-set -x GO111MODULE on
-set PATH $GOPATH/bin $GOROOT/bin $PATH
+set -gx GOPATH $HOME/golang
+set -gx GOROOT /usr/local/opt/go/libexec
+set -gx GO111MODULE on
+set -gx PATH $PATH $GOPATH/bin
+set -gx PATH $PATH $GOROOT/bin
+set -gx PATH $PATH $HOME/.krew/bin
 
 set EDITOR code -w
 
