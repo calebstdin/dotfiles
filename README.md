@@ -6,11 +6,12 @@
 1. [Add SSH Key](https://github.com/settings/ssh/new)
 1. `cd ~`
 1. `git clone git@github.com:PhantomCaleb/dotfiles.git`
-1. `cd dotfiles`
-1. `brew install fish`
-1. `sudo sh -c  "echo /usr/local/bin/fish >> /etc/shells"`
-1. `chsh -s /usr/local/bin/fish`
-1. `brew install stow`
+2. Terminal > Preferences > Import... > `~/terminal/atom/Atom.terminal`
+3. `cd dotfiles`
+4. `brew install fish`
+5. `sudo sh -c  "echo /usr/local/bin/fish >> /etc/shells"`
+6. `chsh -s /usr/local/bin/fish`
+7. `brew install stow`
 
 ## Stow
 1. `stow fish`
