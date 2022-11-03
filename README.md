@@ -10,7 +10,7 @@
 1. Terminal > Preferences > Import... > `~/terminal/atom/Atom.terminal`
 1. `brew install stow`
 1. `brew install fish`
-1. `stow fish`
+1. `stow fish -t ~/.config`
 1. `sudo sh -c "echo $(which fish) >> /etc/shells"`
 1. `chsh -s $(which fish)`
 
