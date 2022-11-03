@@ -1,7 +1,6 @@
 ## From Scratch
 ### macOS
 1. Install [brew](https://brew.sh/) (should also trigger installation of command-line tools)
-1. `brew cask install iterm2`
 1. `ssh-keygen -t rsa -b 4096 -C "caleb.stdenis@gmail.com"`
 1. `pbcopy < ~/.ssh/id_rsa.pub`
 1. [Add SSH Key](https://github.com/settings/ssh/new)
