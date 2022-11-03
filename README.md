@@ -13,6 +13,7 @@
 1. `stow fish -t ~/.config`
 1. `sudo sh -c "echo $(which fish) >> /etc/shells"`
 1. `chsh -s $(which fish)`
+1. `fundle install`
 
 ## Stow
 1. `stow git`
