@@ -2,9 +2,6 @@
 	email = caleb.stdenis@gmail.com
 	name = Caleb St-Denis
 
-[includeIf "gitdir:~/src/ea/"]
-  path = ~/src/ea/.gitconfig
-
 [pull]
 	rebase = true
 
