@@ -6,7 +6,8 @@ set -gx GO111MODULE on
 set -gx PATH $PATH $GOPATH/bin
 set -gx PATH $PATH $GOROOT/bin
 set -gx PATH $PATH $HOME/.krew/bin
-fish_add_path /opt/homebrew/bin/
+set -gx PATH $PATH /opt/homebrew/bin/
+set -gx PATH $PATH /opt/homebrew/opt/python@3.10/libexec/bin
 
 set EDITOR code -w
 
