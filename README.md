@@ -10,7 +10,7 @@
 3. `cd dotfiles`
 4. `brew install fish`
 5. `sudo sh -c "echo $(which fish) >> /etc/shells"`
-6. `chsh -s /usr/local/bin/fish`
+6. `chsh -s $(which fish)`
 7. `brew install stow`
 
 ## Stow
