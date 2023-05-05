@@ -1,4 +1,4 @@
-## From Scratch
+## New Machine Setup
 ### macOS
 1. Install [brew](https://brew.sh/) (should also trigger installation of command-line tools)
 1. `ssh-keygen -t rsa -b 4096 -C "caleb.stdenis@gmail.com"`
