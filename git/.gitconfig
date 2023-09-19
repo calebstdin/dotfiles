@@ -9,3 +9,6 @@
 	pager = less -+$LESS -RS # for macOS trackpad scroll
 [init]
 	defaultBranch = main
+
+[includeIf "gitdir:~/src/OttawaTechNerds/"]
+    path = .gitconfig-OttawaTechNerds
