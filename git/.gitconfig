@@ -9,7 +9,7 @@
 	pager = less -+$LESS -RS # for macOS trackpad scroll
 
 [init]
-	defaultBranch = main
+	defaultBranch = trunk
 
 [diff "lockb"]
 	textconv = bun
