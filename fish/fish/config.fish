@@ -1,11 +1,11 @@
-if not functions -q fundle; eval (curl -sfL https://git.io/fundle-install); end
+if not functions -q fundle
+    eval (curl -sfL https://git.io/fundle-install)
+end
 
-fundle plugin 'edc/bass'
+fundle plugin edc/bass
 fundle init
 
 set -gx DENO_INSTALL /Users/c/.deno
-set -gx GOPATH $HOME/golang
-set -gx GOROOT /opt/homebrew/opt/go/libexec
 set -gx GO111MODULE on
 set -gx GRADLE_USER_HOME /Users/c/.gradle
 set -gx PATH $PATH $GOPATH/bin
@@ -14,7 +14,7 @@ set -gx PATH $PATH $HOME/.krew/bin
 set -gx PATH $PATH /opt/homebrew/bin/
 set -gx PATH $PATH /opt/homebrew/opt/python@3.10/libexec/bin
 set -gx PATH $PATH $DENO_INSTALL/bin
-
+set -gx PATH $PATH $HOME/.linkerd2/bin
 
 set EDITOR code -w
 
@@ -24,11 +24,19 @@ set EDITOR code -w
 do_secret_tings
 
 # pnpm
-set -gx PNPM_HOME "/Users/c/Library/pnpm"
+set -gx PNPM_HOME /Users/c/Library/pnpm
 if not string match -q -- $PNPM_HOME $PATH
-  set -gx PATH "$PNPM_HOME" $PATH
+    set -gx PATH "$PNPM_HOME" $PATH
 end
 # pnpm end
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/c/src/google-cloud-sdk/path.fish.inc' ]
+    . '/Users/c/src/google-cloud-sdk/path.fish.inc'
+end
+
+# Android SDK
+set -gx ANDROID_HOME $HOME/Library/Android/sdk
