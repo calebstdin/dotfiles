@@ -40,3 +40,6 @@ end
 
 # Android SDK
 set -gx ANDROID_HOME $HOME/Library/Android/sdk
+
+# Created by `pipx` on 2024-04-24 23:21:17
+set PATH $PATH /Users/c/.local/bin
